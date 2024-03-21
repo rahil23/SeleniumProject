@@ -1,0 +1,37 @@
+<suite name = "Suite">
+    <test name  = "selenium test with chrome">
+        <parameter name ="browser" value ="chrome">
+        <parameter name ="type" value ="remote">
+        <classes>
+            <class name = "dockerHubAndNode.GridHubNodeBaseTest">
+            </class>
+        </classes>
+        </parameter>
+        </parameter>
+    </test>
+
+    <test name  = "selenium test with firefox">
+        <parameter name ="browser" value ="firefox">
+        <parameter name ="type" value ="remote">
+            <classes>
+                <class name = "dockerHubAndNode.GridHubNodeBaseTest">
+                </class>
+            </classes>
+        </parameter>
+        </parameter>
+    </test>
+
+    <test name  = "selenium test with IE">
+        <parameter name ="browser" value ="ie">
+        <parameter name ="type" value ="remote">
+            <classes>
+                <class name = "dockerHubAndNode.GridHubNodeBaseTest">
+                </class>
+            </classes>
+        </parameter>
+        </parameter>
+    </test>
+
+
+
+</suite>

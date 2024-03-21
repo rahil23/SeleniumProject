@@ -1,0 +1,13 @@
+<suite name="Regression suite">
+
+    <listeners>
+        <listener class-name="org.example.com.myStore.utilities.ExtentListenerClass"></listener>
+    </listeners>
+    <test name = "AddToCart">
+        <classes>
+            <class name = "TC_Login">
+                <exclude name = "ignoreTest"></exclude>
+            </class>
+        </classes>
+    </test>
+</suite>
