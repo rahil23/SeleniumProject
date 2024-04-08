@@ -3,7 +3,7 @@ package org.example.BaseDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-import org.example.utility.ReadFile;
+//import org.example.utility.ReadFile;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,7 +13,7 @@ import org.testng.annotations.*;
 import java.time.Duration;
 
 public class DriverFactory {
-   public  WebDriver driver;
+  /* public  WebDriver driver;
     ReadFile readFile = new ReadFile();
     String browserName;
 
@@ -54,5 +54,5 @@ public class DriverFactory {
             driver = null;
 
         }
-    }
+    }*/
 }

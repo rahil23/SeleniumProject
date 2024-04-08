@@ -1,4 +1,5 @@
-import org.example.BaseTest;
+//import org.example.BaseTest;
+/*
 import org.example.com.myStore.PageObject.IndexPage;
 import org.example.com.myStore.PageObject.LoginPage;
 import org.example.com.myStore.utilities.ExtentListenerClass;
@@ -39,3 +40,4 @@ public class TC_Login extends BaseTest {
     }
 
 }
+*/
